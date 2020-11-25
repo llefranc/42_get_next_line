@@ -6,7 +6,7 @@
 /*   By: lucaslefrancq <lucaslefrancq@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/28 18:01:42 by llefranc          #+#    #+#             */
-/*   Updated: 2020/11/25 12:11:12 by lucaslefran      ###   ########.fr       */
+/*   Updated: 2020/11/25 13:24:35 by lucaslefran      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,11 +25,11 @@ typedef struct		s_list
 	struct s_list	*next;
 }					t_list;
 
+int					get_next_line(int fd, char **line);
 void				*ft_memset(void *b, int c, size_t len);
 int					initchain(t_list **first, t_list *fdelem,
 							char **line, int fd);
 int					findline(t_list *elem, char **line, size_t len);
-int					get_next_line(int fd, char **line);
 void				ft_delone(t_list **first, t_list *elem);
 
 void				ft_lstadd_back(t_list **alst, t_list *new);
