@@ -2,7 +2,7 @@
 
 "Reading a line on a fd is way too tedious"
 
-![Alt text](https://github.com/lucaslefrancq/42_get_next_line/blob/master/get_next_line_example.png)
+![Alt text](https://github.com/lucaslefrancq/42_Get_next_line/blob/main/get_next_line_example.png)
 
 ## About
 
