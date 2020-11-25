@@ -1,4 +1,4 @@
-# Get_next_line (@42Paris)
+# Get_next_line (@42Born2Code)
 
 "Reading a line on a fd is way too tedious"
 
