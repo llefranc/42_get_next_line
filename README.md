@@ -1,8 +1,8 @@
-# Get_next_line (@42Born2Code)
+# get_next_line (@42Born2Code)
 
 "Reading a line on a fd is way too tedious"
 
-![Alt text](https://github.com/lucaslefrancq/42_Get_next_line/blob/main/get_next_line_example.png)
+![Alt text](https://github.com/lucaslefrancq/42_get_next_line/blob/main/get_next_line_example.png)
 
 ## About
 
@@ -24,7 +24,7 @@ time using a chainlist.
 2. Copy your main.c inside the root directory and `cd` into it. Then compile your main with the C files.
 	You need to indicate the size of the buffer that's get_next_line is using.
 
-        cd 42_Get_next_line
+        cd 42_get_next_line
 		gcc -Wall -Werror -Wextra -D BUFFER_SIZE=10 main.c get_next_line.c get_next_line_utils.c
 
-[1]: https://github.com/lucaslefrancq/42_get_next_line/blob/master/get_next_line.en.subject.pdf
+[1]: https://github.com/lucaslefrancq/42_get_next_line/blob/main/get_next_line.en.subject.pdf
