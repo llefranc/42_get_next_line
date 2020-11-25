@@ -22,7 +22,7 @@ time using a chainlist.
         git clone https://github.com/lucaslefrancq/42_get_next_line
 
 2. Copy your main.c inside the root directory and `cd` into it. Then compile your main with the C files.
-	You need to indicates the size of the buffer that's get_next_line is using.
+	You need to indicate the size of the buffer that's get_next_line is using.
 
         cd 42_Get_next_line
 		gcc -Wall -Werror -Wextra -D BUFFER_SIZE=10 main.c get_next_line.c get_next_line_utils.c
