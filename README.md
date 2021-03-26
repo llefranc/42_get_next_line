@@ -13,7 +13,7 @@ time using a chainlist.
 
 - Here is the [subject][1]
 
-`This project was code on MacOS`
+`This project was coded on MacOS`
 
 ### Building and running the project
 
